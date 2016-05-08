@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA3EEBAB1C0D95F4006421EC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3EEBAA1C0D95F4006421EC /* AudioToolbox.framework */; };
+		EA3EEBB11C0DA99C006421EC /* fokak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EA3EEBB01C0DA99C006421EC /* fokak.m4a */; };
 		EA5B117B1C0C9B2B00B90203 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B117A1C0C9B2B00B90203 /* AppDelegate.swift */; };
 		EA5B117D1C0C9B2B00B90203 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EA5B117C1C0C9B2B00B90203 /* GameScene.sks */; };
 		EA5B117F1C0C9B2B00B90203 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B117E1C0C9B2B00B90203 /* GameScene.swift */; };
@@ -14,8 +16,27 @@
 		EA5B11841C0C9B2B00B90203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5B11821C0C9B2B00B90203 /* Main.storyboard */; };
 		EA5B11861C0C9B2B00B90203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5B11851C0C9B2B00B90203 /* Assets.xcassets */; };
 		EA5B11891C0C9B2B00B90203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5B11871C0C9B2B00B90203 /* LaunchScreen.storyboard */; };
-		EA5B11941C0C9B2B00B90203 /* mazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B11931C0C9B2B00B90203 /* mazeTests.swift */; };
-		EA5B119F1C0C9B2B00B90203 /* mazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B119E1C0C9B2B00B90203 /* mazeUITests.swift */; };
+		EA5B11AD1C0C9B6100B90203 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B11AC1C0C9B6100B90203 /* Level.swift */; };
+		EA5B11AF1C0C9B6D00B90203 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B11AE1C0C9B6D00B90203 /* Player.swift */; };
+		EA5B11B11C0C9B9A00B90203 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B11B01C0C9B9A00B90203 /* constants.swift */; };
+		EA5B11C31C0C9CEA00B90203 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA5B11B41C0C9CEA00B90203 /* background.jpg */; };
+		EA5B11C41C0C9CEA00B90203 /* background@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA5B11B51C0C9CEA00B90203 /* background@2x.jpg */; };
+		EA5B11C51C0C9CEA00B90203 /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B11B61C0C9CEA00B90203 /* block.png */; };
+		EA5B11C61C0C9CEA00B90203 /* block@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B11B71C0C9CEA00B90203 /* block@2x.png */; };
+		EA5B11C71C0C9CEA00B90203 /* finish.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B11B81C0C9CEA00B90203 /* finish.png */; };
+		EA5B11C81C0C9CEA00B90203 /* finish@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B11B91C0C9CEA00B90203 /* finish@2x.png */; };
+		EA5B11C91C0C9CEA00B90203 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA5B11BA1C0C9CEA00B90203 /* level1.txt */; };
+		EA5B11CA1C0C9CEA00B90203 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA5B11BB1C0C9CEA00B90203 /* level2.txt */; };
+		EA5B11CB1C0C9CEA00B90203 /* level3.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA5B11BC1C0C9CEA00B90203 /* level3.txt */; };
+		EA5B11CC1C0C9CEA00B90203 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B11BD1C0C9CEA00B90203 /* player.png */; };
+		EA5B11CD1C0C9CEA00B90203 /* player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B11BE1C0C9CEA00B90203 /* player@2x.png */; };
+		EA5B11CE1C0C9CEA00B90203 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B11BF1C0C9CEA00B90203 /* star.png */; };
+		EA5B11CF1C0C9CEA00B90203 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B11C01C0C9CEA00B90203 /* star@2x.png */; };
+		EA5B11D01C0C9CEA00B90203 /* vortex.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B11C11C0C9CEA00B90203 /* vortex.png */; };
+		EA5B11D11C0C9CEA00B90203 /* vortex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B11C21C0C9CEA00B90203 /* vortex@2x.png */; };
+		EA5B11D51C0CA1C300B90203 /* level4.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA5B11D41C0CA1C300B90203 /* level4.txt */; };
+		EAF6CB241C0E42C7001E3B08 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF6CB231C0E42C7001E3B08 /* bullet.png */; };
+		EAF6CB261C0E4305001E3B08 /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF6CB251C0E4305001E3B08 /* Bullet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA3EEBAA1C0D95F4006421EC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EA3EEBB01C0DA99C006421EC /* fokak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = fokak.m4a; sourceTree = "<group>"; };
 		EA5B11771C0C9B2B00B90203 /* maze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5B117A1C0C9B2B00B90203 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA5B117C1C0C9B2B00B90203 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -46,11 +69,28 @@
 		EA5B11881C0C9B2B00B90203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA5B118A1C0C9B2B00B90203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA5B118F1C0C9B2B00B90203 /* mazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA5B11931C0C9B2B00B90203 /* mazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mazeTests.swift; sourceTree = "<group>"; };
-		EA5B11951C0C9B2B00B90203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA5B119A1C0C9B2B00B90203 /* mazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA5B119E1C0C9B2B00B90203 /* mazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mazeUITests.swift; sourceTree = "<group>"; };
-		EA5B11A01C0C9B2B00B90203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5B11AC1C0C9B6100B90203 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		EA5B11AE1C0C9B6D00B90203 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		EA5B11B01C0C9B9A00B90203 /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		EA5B11B41C0C9CEA00B90203 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		EA5B11B51C0C9CEA00B90203 /* background@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background@2x.jpg"; sourceTree = "<group>"; };
+		EA5B11B61C0C9CEA00B90203 /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block.png; sourceTree = "<group>"; };
+		EA5B11B71C0C9CEA00B90203 /* block@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "block@2x.png"; sourceTree = "<group>"; };
+		EA5B11B81C0C9CEA00B90203 /* finish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finish.png; sourceTree = "<group>"; };
+		EA5B11B91C0C9CEA00B90203 /* finish@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finish@2x.png"; sourceTree = "<group>"; };
+		EA5B11BA1C0C9CEA00B90203 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		EA5B11BB1C0C9CEA00B90203 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
+		EA5B11BC1C0C9CEA00B90203 /* level3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level3.txt; sourceTree = "<group>"; };
+		EA5B11BD1C0C9CEA00B90203 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		EA5B11BE1C0C9CEA00B90203 /* player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player@2x.png"; sourceTree = "<group>"; };
+		EA5B11BF1C0C9CEA00B90203 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		EA5B11C01C0C9CEA00B90203 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
+		EA5B11C11C0C9CEA00B90203 /* vortex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vortex.png; sourceTree = "<group>"; };
+		EA5B11C21C0C9CEA00B90203 /* vortex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vortex@2x.png"; sourceTree = "<group>"; };
+		EA5B11D41C0CA1C300B90203 /* level4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level4.txt; sourceTree = "<group>"; };
+		EAF6CB231C0E42C7001E3B08 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
+		EAF6CB251C0E4305001E3B08 /* Bullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bullet.swift; path = ../Bullet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3EEBAB1C0D95F4006421EC /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +122,9 @@
 		EA5B116E1C0C9B2B00B90203 = {
 			isa = PBXGroup;
 			children = (
-				EA5B11791C0C9B2B00B90203 /* maze */,
-				EA5B11921C0C9B2B00B90203 /* mazeTests */,
-				EA5B119D1C0C9B2B00B90203 /* mazeUITests */,
+				EA3EEBAA1C0D95F4006421EC /* AudioToolbox.framework */,
 				EA5B11781C0C9B2B00B90203 /* Products */,
+				EA5B11791C0C9B2B00B90203 /* maze */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +141,7 @@
 		EA5B11791C0C9B2B00B90203 /* maze */ = {
 			isa = PBXGroup;
 			children = (
+				EA5B11D31C0C9D8A00B90203 /* content */,
 				EA5B117A1C0C9B2B00B90203 /* AppDelegate.swift */,
 				EA5B117C1C0C9B2B00B90203 /* GameScene.sks */,
 				EA5B117E1C0C9B2B00B90203 /* GameScene.swift */,
@@ -109,26 +150,37 @@
 				EA5B11851C0C9B2B00B90203 /* Assets.xcassets */,
 				EA5B11871C0C9B2B00B90203 /* LaunchScreen.storyboard */,
 				EA5B118A1C0C9B2B00B90203 /* Info.plist */,
+				EA5B11AC1C0C9B6100B90203 /* Level.swift */,
+				EA5B11B01C0C9B9A00B90203 /* constants.swift */,
+				EA5B11AE1C0C9B6D00B90203 /* Player.swift */,
+				EAF6CB251C0E4305001E3B08 /* Bullet.swift */,
 			);
 			path = maze;
 			sourceTree = "<group>";
 		};
-		EA5B11921C0C9B2B00B90203 /* mazeTests */ = {
+		EA5B11D31C0C9D8A00B90203 /* content */ = {
 			isa = PBXGroup;
 			children = (
-				EA5B11931C0C9B2B00B90203 /* mazeTests.swift */,
-				EA5B11951C0C9B2B00B90203 /* Info.plist */,
+				EAF6CB231C0E42C7001E3B08 /* bullet.png */,
+				EA3EEBB01C0DA99C006421EC /* fokak.m4a */,
+				EA5B11B41C0C9CEA00B90203 /* background.jpg */,
+				EA5B11B51C0C9CEA00B90203 /* background@2x.jpg */,
+				EA5B11B61C0C9CEA00B90203 /* block.png */,
+				EA5B11B71C0C9CEA00B90203 /* block@2x.png */,
+				EA5B11B81C0C9CEA00B90203 /* finish.png */,
+				EA5B11B91C0C9CEA00B90203 /* finish@2x.png */,
+				EA5B11BA1C0C9CEA00B90203 /* level1.txt */,
+				EA5B11BB1C0C9CEA00B90203 /* level2.txt */,
+				EA5B11BC1C0C9CEA00B90203 /* level3.txt */,
+				EA5B11D41C0CA1C300B90203 /* level4.txt */,
+				EA5B11BD1C0C9CEA00B90203 /* player.png */,
+				EA5B11BE1C0C9CEA00B90203 /* player@2x.png */,
+				EA5B11BF1C0C9CEA00B90203 /* star.png */,
+				EA5B11C01C0C9CEA00B90203 /* star@2x.png */,
+				EA5B11C11C0C9CEA00B90203 /* vortex.png */,
+				EA5B11C21C0C9CEA00B90203 /* vortex@2x.png */,
 			);
-			path = mazeTests;
-			sourceTree = "<group>";
-		};
-		EA5B119D1C0C9B2B00B90203 /* mazeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EA5B119E1C0C9B2B00B90203 /* mazeUITests.swift */,
-				EA5B11A01C0C9B2B00B90203 /* Info.plist */,
-			);
-			path = mazeUITests;
+			name = content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,9 +289,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3EEBB11C0DA99C006421EC /* fokak.m4a in Resources */,
+				EA5B11D51C0CA1C300B90203 /* level4.txt in Resources */,
+				EA5B11CC1C0C9CEA00B90203 /* player.png in Resources */,
+				EAF6CB241C0E42C7001E3B08 /* bullet.png in Resources */,
 				EA5B117D1C0C9B2B00B90203 /* GameScene.sks in Resources */,
+				EA5B11CB1C0C9CEA00B90203 /* level3.txt in Resources */,
+				EA5B11C51C0C9CEA00B90203 /* block.png in Resources */,
+				EA5B11CA1C0C9CEA00B90203 /* level2.txt in Resources */,
+				EA5B11CE1C0C9CEA00B90203 /* star.png in Resources */,
+				EA5B11C31C0C9CEA00B90203 /* background.jpg in Resources */,
+				EA5B11D01C0C9CEA00B90203 /* vortex.png in Resources */,
 				EA5B11891C0C9B2B00B90203 /* LaunchScreen.storyboard in Resources */,
+				EA5B11C61C0C9CEA00B90203 /* block@2x.png in Resources */,
 				EA5B11861C0C9B2B00B90203 /* Assets.xcassets in Resources */,
+				EA5B11C41C0C9CEA00B90203 /* background@2x.jpg in Resources */,
+				EA5B11C81C0C9CEA00B90203 /* finish@2x.png in Resources */,
+				EA5B11C71C0C9CEA00B90203 /* finish.png in Resources */,
+				EA5B11C91C0C9CEA00B90203 /* level1.txt in Resources */,
+				EA5B11CF1C0C9CEA00B90203 /* star@2x.png in Resources */,
+				EA5B11D11C0C9CEA00B90203 /* vortex@2x.png in Resources */,
+				EA5B11CD1C0C9CEA00B90203 /* player@2x.png in Resources */,
 				EA5B11841C0C9B2B00B90203 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +337,11 @@
 			files = (
 				EA5B117F1C0C9B2B00B90203 /* GameScene.swift in Sources */,
 				EA5B11811C0C9B2B00B90203 /* GameViewController.swift in Sources */,
+				EA5B11AD1C0C9B6100B90203 /* Level.swift in Sources */,
+				EAF6CB261C0E4305001E3B08 /* Bullet.swift in Sources */,
+				EA5B11AF1C0C9B6D00B90203 /* Player.swift in Sources */,
 				EA5B117B1C0C9B2B00B90203 /* AppDelegate.swift in Sources */,
+				EA5B11B11C0C9B9A00B90203 /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +349,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA5B11941C0C9B2B00B90203 /* mazeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +356,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA5B119F1C0C9B2B00B90203 /* mazeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,9 +480,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = maze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SICASM.maze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -419,9 +493,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = maze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SICASM.maze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -494,6 +570,7 @@
 				EA5B11A51C0C9B2B00B90203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA5B11A61C0C9B2B00B90203 /* Build configuration list for PBXNativeTarget "mazeTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +579,7 @@
 				EA5B11A81C0C9B2B00B90203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA5B11A91C0C9B2B00B90203 /* Build configuration list for PBXNativeTarget "mazeUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +588,7 @@
 				EA5B11AB1C0C9B2B00B90203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
